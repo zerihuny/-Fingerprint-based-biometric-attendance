@@ -10,4 +10,4 @@ all software codes are available here.
 
 You can check the pinout and working principle of ESP32 board from 
 https://randomnerdtutorials.com/getting-started-with-esp32/
-
+Reach out @binium on telegram
