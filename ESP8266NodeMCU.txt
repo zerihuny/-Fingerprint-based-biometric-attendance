@@ -1,5 +1,4 @@
 //Code Credit to orginal Author:  https://www.youtube.com/ElectronicsTechHaIs
-//This code created by Electronics Tech channel
 //*******************************libraries********************************
 #include <SPI.h>
 #include <Wire.h>
@@ -1021,7 +1020,7 @@ void connectToWiFi(){
     WiFi.begin(ssid, password);
  
     display.clearDisplay();
-    display.setTextSize(1);             // Normal 1:1 pixel scale
+    display.setTextSize(1);             // Normal 1:1 pixel scale      
     display.setTextColor(WHITE);        // Draw white text
     display.setCursor(0, 0);             // Start at top-left corner
     display.print(F("Connecting to \n"));
